@@ -3,6 +3,7 @@ body {
   color: #E5E7EB;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
+  margin: 0;
 }
 
 ul {
@@ -25,7 +26,7 @@ a {
   align-items: center;
   color: #F9FAF8;
   height: 48px;
-  padding: 0px 22vw;
+  padding: 8px 22vw;
 }
 
 .header p {
@@ -38,8 +39,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 100px 22vw;
-  height: 240px;
+  padding: 0px 22vw;
+  height: 500px;
   gap: 48px;
 }
 
@@ -49,7 +50,7 @@ h1 {
   color: #F9FAF8;
   line-height: unset;
   padding: 0;
-  margin: 0;
+  margin: 0 0 8px 0;
 }
 
 .left {
@@ -79,5 +80,40 @@ button {
   background-color: #6D747D;
   color: #E5E7EB;
   width: 55%;
-  height: 100%;
+  height: 264px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 500px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.flex-items {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 48px;
+  margin: 20px 0 112px 0;
+}
+
+.items li {
+  width: 172px;
+  color: #1F2937;
+}
+
+.rounded-box {
+  border: 4px solid #3882F6;
+  border-radius: 16px;
+  height: 172px;
+  margin-bottom: 8px;
 }

@@ -67,7 +67,7 @@ button {
   color: white;
   border: none;
   border-radius: 8px;
-  width: 120px;
+  width: 130px;
   height: 36px;
   font-size: 18px;
   font-weight: 500;
@@ -108,7 +108,7 @@ h2 {
 
 .items li {
   width: 172px;
-  color: #1F2937;
+  color: #4B5563;
 }
 
 .rounded-box {
